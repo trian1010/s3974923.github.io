@@ -1,0 +1,112 @@
+<!--
+RMIT University Vietnam
+Course: COSC2430 Web Programming
+Semester: 2023A
+Assessment: Assignment 1
+Author: Nguyen Tran Tri An
+ID: s3974923
+Acknowledgement: Acknowledge the resources that you use here.
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CorneliaBookstore</title>
+    <link rel="shortcut icon" href="images/bookstorelogo.jpg">
+    <link rel="stylesheet" href="LM.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css" integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA==" crossorigin="anonymous" referrerpolicy="no-referrer" /></head>
+<body>
+    <header>
+    <nav>
+        <ul class="nav-bar">
+            <li class="logo"><a href="index.html"><img src="images/bookstorelogo.jpg" alt="bookstore logo"></a></li>
+            <input type="checkbox" id="check" />
+            <span class="menu">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="index.html">New Arrivals</a></li>
+                <li><a href="fiction.html">Fiction</a></li>
+                <li><a href="non-fiction.html">Non-Fiction</a></li>
+                <li><a href="reference.html">Reference</a></li>
+                <label for="check" class="close-menu"><i class="fas fa-times"></i></label>
+            </span>
+            <label for="check" class="open-menu"><i class="fas fa-bars"></i></label>
+        </ul>
+    </nav>
+    </header>
+    <section class="bc-section">
+        <nav class="nav-breadcrums">
+            <ul class="breadcrums">
+                <li>
+                    <img src="images/homepage-icon.png" alt="homepage icon" class="hp-icon">
+                </li>
+                <li class="home-breadcrums">
+                    <a href="index.html">
+                        Home
+                    </a>
+                </li>
+                <li>
+                    <img src="images/arrow-icon.png" alt="arrow icon" class="ar-icon">
+                </li>
+                <li>
+                    <img src="images/book-icon.png" alt="fiction book icon" class="b-icon">
+                </li>
+                <li class="fiction-breadcrums">
+                    <a href="fiction.html">
+                        Fiction
+                    </a>
+                </li>
+                <li>
+                    <img src="images/arrow-icon.png" alt="arrow icon" class="ar-icon">
+                </li>
+                <li>
+                    <img src="images/book-icon.png" alt="fiction book icon" class="b-icon">
+                </li>
+                <li class="lm-breadcrums">
+                    <a href="LM.html">
+                        Little Monsters
+                    </a>
+                </li>
+            </ul>
+        </nav>
+    </section>
+    <main>
+        <section class="book-display-section">
+            <div class="book-display-container">
+                <img src="images/Little monster.jpg" alt="the little monster main img" class="lm-main-img">
+                <div class="side-img-container">
+                    <img src="images/lm1.jpg" alt="little monster side img1" class="lm-side-img">
+                    <img src="images/lm2.jpg" alt="little monster side img2" class="lm-side-img">
+                    <img src="images/lm3.jpg" alt="little monster side img3" class="lm-side-img">
+                </div>
+                <div class="button-price">
+                    <p class="price">$13.23</p>
+                    <button class="buy-now-button">BUY NOW</button>
+                    <button class="add-to-cart-button" onclick="alert('Product Added to Cart')">ADD TO CART</button>
+                </div>
+            </div>
+        </section>
+        <section class="book-description">
+            <h1 class="book-title">Little Monsters</h1>
+            <p>
+                Ken and Abby Gardner lost their mother when they were small and they have been haunted by her absence ever since. Their father, Adam, a brilliant oceanographer, raised them mostly on his own in his remote home on Cape Cod, where the attachment between Ken and Abby deepened into something complicated—and as adults their relationship is strained. Now, years later, the siblings’ lives are still deeply entwined. Ken is a successful businessman with political ambitions and a picture-perfect family and Abby is a talented visual artist who depends on her brother’s goodwill, in part because he owns the studio where she lives and works.
+            </p>
+            <p>
+                As the novel opens, Adam is approaching his seventieth birthday, staring down his mortality and fading relevance. He has always managed his bipolar disorder with medication, but he’s determined to make one last scientific breakthrough and so he has secretly stopped taking his pills, which he knows will infuriate his children. Meanwhile, Abby and Ken are both harboring secrets of their own, and there is a new person on the periphery of the family—Steph, who doesn’t make her connection known. As Adam grows more attuned to the frequencies of the deep sea and less so to the people around him, Ken and Abby each plan the elaborate gifts they will present to their father on his birthday, jostling for primacy in this small family unit.
+            </p>
+        </section>
+    </main>
+
+    <footer>
+        <nav>
+            <ul class="second-nav-bar">
+                <li><a href="">About Us</a></li>
+                <li><a href="">Privacy Policy</a></li>
+                <li><a href="">Terms</a></li>
+                <li><a href="">Copyright</a></li>
+                <li><a href="contactpage.html">Contact Us</a></li>
+            </ul>
+        </nav>
+    </footer>
+</body>

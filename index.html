@@ -1,0 +1,207 @@
+<!--
+RMIT University Vietnam
+Course: COSC2430 Web Programming
+Semester: 2023A
+Assessment: Assignment 1
+Author: Nguyen Tran Tri An
+ID: s3974923
+Acknowledgement: Acknowledge the resources that you use here.
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CorneliaBookstore</title>
+    <link rel="shortcut icon" href="images/bookstorelogo.jpg">
+    <link rel="stylesheet" href="homepage.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css" integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA==" crossorigin="anonymous" referrerpolicy="no-referrer" /></head>
+<body>
+    <header>
+    <nav>
+        <ul class="nav-bar">
+            <li class="logo"><a href="index.html"><img src="images/bookstorelogo.jpg" alt="bookstore logo"></a></li>
+            <input type="checkbox" id="check" />
+            <span class="menu">
+                <li><a href="#">Home</a></li>
+                <li><a href="#new-books">New Arrivals</a></li>
+                <li><a href="fiction.html">Fiction</a></li>
+                <li><a href="non-fiction.html">Non-Fiction</a></li>
+                <li><a href="reference.html">Reference</a></li>
+                <label for="check" class="close-menu"><i class="fas fa-times"></i></label>
+            </span>
+            <label for="check" class="open-menu"><i class="fas fa-bars"></i></label>
+        </ul>
+    </nav>
+    </header>
+
+    <section>
+        <img class="main-img" src="images/bookstoreMainImage.webp" alt="bookstore main imgage">
+    </section>
+
+    <br>
+    <br>
+    <br>
+
+    <main>
+        <h1 id="new-books" class="category-title">New Arrivals</h1>
+
+        <br>
+
+        <section id="Category-New-Arrivals" class="category">
+            <div class="book-container">
+                <div class="div-cat">
+                    <img src="images/hangman.jpg" alt="hangman book" class="book-cover">
+                    <p class="book-title">Hangman</p>
+                </div>
+                <div class="div-cat">
+                    <img src="images/elsewhere.jpg" alt="elsewhere book" class="book-cover">
+                    <p class="book-title">Elsewhere</p>
+                </div>
+                <div class="div-cat">
+                    <img src="images/tombsweeping.jpg" alt="tomb sweeping book" class="book-cover">
+                    <p class="book-title">Tomb Sweeping</p>
+                </div>
+                <div class="div-cat">
+                    <img src="images/stillborn.jpg" alt="still born book" class="book-cover">
+                    <p class="book-title">Still Born</p>
+                </div>
+            </div>
+        </section>
+
+        <br>
+        <br>
+        <br>
+
+        <h1><a href="fiction.html" class="category-title">Fiction</a></h1>
+
+        <br>
+
+        <section id="Category-Fiction" class="category">
+            <div class="book-container">
+                <div class="div-cat">
+                    <a href="LM.html"></a>
+                    <img src="images/Little monster.jpg" alt="little monsters book" class="book-cover">
+                    <p class="book-title">Little Monsters</p>
+                </div>
+                <div class="div-cat">
+                    <a href="TM.html"></a>
+                    <img src="images/the mist.jpg" alt="the mist book" class="book-cover">
+                    <p class="book-title">The Mist</p>
+                </div>
+                <div class="div-cat">
+                    <a href="QR.html"></a>
+                    <img src="images/quantium radio.jpg" alt="quantum radio book" class="book-cover">
+                    <p class="book-title">Quantum Radio</p>
+                </div>
+                <div class="div-cat">
+                    <a href="Dune.html"></a>
+                    <img src="images/dune.jpg" alt="dune book" class="book-cover">
+                    <p class="book-title">Dune</p>
+                </div>
+            </div>
+        </section>
+
+        <br>
+        <br>
+        <br>
+
+        <h1><a href="non-fiction.html" class="category-title">Non-Fiction</a></h1>
+
+        <br>
+
+        <section id="Category-Non-Fiction" class="category">
+            <div class="book-container">
+                <div class="div-cat">
+                    <a href="TPY.html"></a>
+                    <img src="images/the pivot year.jpg" alt="the pivot year book" class="book-cover">
+                    <p class="book-title">The Pivot Year</p>
+                </div>
+                <div class="div-cat">
+                    <a href="DC.html"></a>
+                    <img src="images/david c.jpg" alt="david copperfield book" class="book-cover">
+                    <p class="book-title">David Copperfield</p>
+                </div>
+                <div class="div-cat">
+                    <a href="TAOW.html"></a>
+                    <img src="images/the art of war.jpg" alt="the art of war book" class="book-cover">
+                    <p class="book-title">The Art Of War</p>
+                </div>
+                <div class="div-cat">
+                    <a href="TRGR.html"></a>
+                    <img src="images/think and grow rich.jpg" alt="think and grow rich book" class="book-cover">
+                    <p class="book-title">Think And Grow Rich</p>
+                </div>
+            </div>
+        </section>
+
+        <br>
+        <br>
+        <br>
+
+        <h1><a href="reference.html" class="category-title">Reference</a></h1>
+
+        <br>
+        
+        <section id="Category-Reference" class="category">
+            <div class="book-container">
+                <div class="div-cat">
+                    <a href="TWA.html"></a>
+                    <img src="images/women's atlas.jpg" alt="the women's atlas book" class="book-cover">
+                    <p class="book-title">The Women's Atlas</p>
+                </div>
+                <div class="div-cat">
+                    <a href="DOI.html"></a>
+                    <img src="images/dic of idioms.jpg" alt="the dictionary of idioms book" class="book-cover">
+                    <p class="book-title">Dictionary Of Idioms</p>
+                </div>
+                <div class="div-cat">
+                    <a href="TAOME.html"></a>
+                    <img src="images/The atlas of ME.jpg" alt="the atlas of middle earth book" class="book-cover">
+                    <p class="book-title">The Atlas Of Middle-Earth</p>
+                </div>
+                <div class="div-cat">
+                    <a href="ALD.html"></a>
+                    <img src="images/Advanced dic.jpg" alt="advanced's learner's dictionary book" class="book-cover">
+                    <p class="book-title">Advanced Learner's Dictionary</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <br>
+    <br>
+    <br>
+
+    <hr>
+
+    <br>
+    <br>
+    <br>
+
+    <section class="video-container">
+        <iframe class="video" src="https://www.youtube.com/embed/SKVcQnyEIT8" title="The Joy of Books" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    </section>
+
+    <br>
+    <br>
+    <br>
+
+    <hr>
+
+    <br>
+
+    <footer>
+        <nav>
+            <ul class="second-nav-bar">
+                <li><a href="">About Us</a></li>
+                <li><a href="">Privacy Policy</a></li>
+                <li><a href="">Terms</a></li>
+                <li><a href="">Copyright</a></li>
+                <li><a href="contactpage.html">Contact Us</a></li>
+            </ul>
+        </nav>
+    </footer>
+</body>
+</html>

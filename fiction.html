@@ -1,0 +1,155 @@
+<!--
+RMIT University Vietnam
+Course: COSC2430 Web Programming
+Semester: 2023A
+Assessment: Assignment 1
+Author: Nguyen Tran Tri An
+ID: s3974923
+Acknowledgement: Acknowledge the resources that you use here.
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CorneliaBookstore</title>
+    <link rel="shortcut icon" href="images/bookstorelogo.jpg">
+    <link rel="stylesheet" href="fiction.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css" integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA==" crossorigin="anonymous" referrerpolicy="no-referrer" /></head>
+<body>
+    <header>
+    <nav>
+        <ul class="nav-bar">
+            <li class="logo"><a href="index.html"><img src="images/bookstorelogo.jpg" alt="bookstore logo"></a></li>
+            <input type="checkbox" id="check" />
+            <span class="menu">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="index.html">New Arrivals</a></li>
+                <li><a href="fiction.html">Fiction</a></li>
+                <li><a href="non-fiction.html">Non-Fiction</a></li>
+                <li><a href="reference.html">Reference</a></li>
+                <label for="check" class="close-menu"><i class="fas fa-times"></i></label>
+            </span>
+            <label for="check" class="open-menu"><i class="fas fa-bars"></i></label>
+        </ul>
+    </nav>
+    </header>
+    <main>
+        <nav class="nav-breadcrums">
+            <ul class="breadcrums">
+                <li>
+                    <img src="images/homepage-icon.png" alt="homepage icon" class="hp-icon">
+                </li>
+                <li class="home-breadcrums">
+                    <a href="index.html">
+                        Home
+                    </a>
+                </li>
+                <li>
+                    <img src="images/arrow-icon.png" alt="arrow icon" class="ar-icon">
+                </li>
+                <li>
+                    <img src="images/book-icon.png" alt="fiction book icon" class="b-icon">
+                </li>
+                <li class="fiction-breadcrums">
+                    <a href="fiction.html">
+                        Fiction
+                    </a>
+                </li>
+            </ul>
+        </nav>
+
+        <br>
+        <br>
+        <br>
+
+        <h1 class="category-title">Literary Fiction</h1>
+
+        <br>
+
+        <section id="Category-Literary-Fiction" class="category">
+            <div class="book-container">
+                <div class="div-cat">
+                    <a href="LM.html"></a>
+                    <img src="images/Little monster.jpg" alt="little monsters book" class="book-cover">
+                    <p class="book-title">Little Monsters</p>
+                </div>
+                <div class="div-cat">
+                    <img src="images/Trust.jpg" alt="trust book" class="book-cover">
+                    <p class="book-title">Trust</p>
+                </div>
+                <div class="div-cat">
+                    <img src="images/Before I go.jpg" alt="before i go book" class="book-cover">
+                    <p class="book-title">Before I Go</p>
+                </div>
+            </div>
+        </section>
+
+        <br>
+        <br>
+        <br>
+
+        <h1 class="category-title">Science Fiction</h1>
+
+        <br>
+
+        <section id="Category-Science-Fiction" class="category">
+            <div class="book-container">
+                <div class="div-cat">
+                    <a href="Dune.html"></a>
+                    <img src="images/dune.jpg" alt=" dune book" class="book-cover">
+                    <p class="book-title">Dune</p>
+                </div>
+                <div class="div-cat">
+                    <a href="TM.html"></a>
+                    <img src="images/the mist.jpg" alt="the mist book" class="book-cover">
+                    <p class="book-title">The Mist</p>
+                </div>
+                <div class="div-cat">
+                    <a href="QR.html"></a>
+                    <img src="images/quantium radio.jpg" alt="quantum radio book" class="book-cover">
+                    <p class="book-title">Quantum Radio</p>
+                </div>
+            </div>
+        </section>
+
+        <br>
+        <br>
+        <br>
+
+        <h1 class="category-title">Historical Fiction</h1>
+
+        <br>
+
+        <section id="Category-Historical-Fiction" class="category">
+            <div class="book-container">
+                <div class="div-cat">
+                    <img src="images/only the beautiful.jpg" alt=" only the beautiful book" class="book-cover">
+                    <p class="book-title">Only The Beautiful</p>
+                </div>
+                <div class="div-cat">
+                    <img src="images/the personal librarian.jpg" alt="the personal lirarian book" class="book-cover">
+                    <p class="book-title">The Personal Librarian</p>
+                </div>
+                <div class="div-cat">
+                    <img src="images/loyalty.jpg" alt="loyalty book" class="book-cover">
+                    <p class="book-title">Loyalty</p>
+                </div>
+            </div>
+    </main>
+
+    <br>
+
+    <footer>
+        <nav>
+            <ul class="second-nav-bar">
+                <li><a href="">About Us</a></li>
+                <li><a href="">Privacy Policy</a></li>
+                <li><a href="">Terms</a></li>
+                <li><a href="">Copyright</a></li>
+                <li><a href="contactpage.html">Contact Us</a></li>
+            </ul>
+        </nav>
+    </footer>
+</body>
